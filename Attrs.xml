@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlowLayout">
+        <attr name="delfault_flow" format="boolean" />
+        <attr name="child_spacing" format="integer" />
+        <attr name="min_child_spacing" format="integer" />
+        <attr name="child_spacing_last_row" format="integer" />
+        <attr name="row_spacing" format="integer" />
+        <attr name="max_rows" format="integer" />
+        <attr name="android_gravity" format="integer" />
+        <attr name="remove_selection" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="TagView">
+        <attr name="selected" format="boolean" />
+        <attr name="corner_radius" format="integer" />
+        <attr name="border_width" format="integer" />
+        <attr name="default_border_color" format="reference" />
+        <attr name="default_background_color" format="reference" />
+        <attr name="default_text_color" format="reference" />
+        <attr name="selected_border_color" format="reference" />
+        <attr name="selected_background_color" format="reference" />
+        <attr name="selected_text_color" format="reference" />
+    </declare-styleable>
+</resources>
